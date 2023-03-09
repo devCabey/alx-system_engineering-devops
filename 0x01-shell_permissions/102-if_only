@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty hello
+find . -maxdepth 1 -user guilluame -exec chown Betty hello {} \:
